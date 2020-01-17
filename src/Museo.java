@@ -34,6 +34,6 @@ public class Museo {
     }
 
     public String toString() {
-        return nimi + " sijaitsee "+ sijainti + " ja on perustettu vuonna " + perustusVuosi;
+        return "Museon nimi: " + nimi + "\nSijainti: "+ sijainti + "\nPerustettu vuonna: " + perustusVuosi +"\n";
     }
 }
